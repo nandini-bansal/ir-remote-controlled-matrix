@@ -15,13 +15,11 @@ translated into different lighting patterns on an 8x8 LED matrix.
 - 8x8 LED Matrix (with MAX7219 driver)
 - Jumper wires, breadboard
 
-## Circuit
-[Add a photo or diagram of your setup here]
-
 ## Code
 See `ir_led_matrix.ino` for the full sketch. Each pattern is stored as an 8-byte 
 array representing the matrix rows — add new patterns by defining a new array and 
 mapping it to a remote button code.
 
 ## Demo
-[Add a photo or short video/GIF of the patterns lighting up]
+Please check out this linkedin post of mine to see this project in action
+[Click here!](https://www.linkedin.com/feed/update/urn:li:activity:7493626347496579072/)
