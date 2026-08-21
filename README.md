@@ -1,2 +1,27 @@
-# ir-remote-controlled-matrix
-An Arduino project where an IR remote control sends signals that are decoded and  translated into different lighting patterns on an 8x8 LED matrix.
+# IR-Controlled LED Matrix Patterns
+
+An Arduino project where an IR remote control sends signals that are decoded and 
+translated into different lighting patterns on an 8x8 LED matrix.
+
+## How it works
+- An IR receiver picks up signals from a remote control.
+- The Arduino decodes the button press and maps it to a specific pattern.
+- The 8x8 LED matrix displays that pattern — currently supports a smiley face, 
+  a heart, the letter N, single row and the full matrix light up.
+
+## Components used
+- Arduino Uno
+- IR Receiver Module VS1838B + Remote
+- 8x8 LED Matrix (with MAX7219 driver)
+- Jumper wires, breadboard
+
+## Circuit
+[Add a photo or diagram of your setup here]
+
+## Code
+See `ir_led_matrix.ino` for the full sketch. Each pattern is stored as an 8-byte 
+array representing the matrix rows — add new patterns by defining a new array and 
+mapping it to a remote button code.
+
+## Demo
+[Add a photo or short video/GIF of the patterns lighting up]
