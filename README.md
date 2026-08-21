@@ -16,7 +16,7 @@ translated into different lighting patterns on an 8x8 LED matrix.
 - Jumper wires, breadboard
 
 ## Code
-See `ir_led_matrix.ino` for the full sketch. Each pattern is stored as an 8-byte 
+See `ir_sensor.ino` for the full sketch. Each pattern is stored as an 8-byte 
 array representing the matrix rows — add new patterns by defining a new array and 
 mapping it to a remote button code.
 
